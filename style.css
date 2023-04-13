@@ -252,7 +252,7 @@ body {
     margin-top: 0;
     height: 90px;
     width: 100%;
-    margin-left: 16px;
+    padding-left: 16px;
 
     overflow: hidden;
     
@@ -321,14 +321,17 @@ body {
     .text-block__image {
         flex: 0 0 40%;
         padding-top: 30%;
-        margin-left: 48px;
+        
         border-radius: 6px;
         margin-right: 16px;
         margin-top: 0;
     }
 
+    .text-block__text {
+        padding-right: 48px;
+    }
+
     .text-block__container {
-        margin-left: 24px;
         flex: 0 0 40%; 
     }
 }
@@ -361,7 +364,7 @@ body {
     }
 
     .text-block__text {
-        margin-left: 24px;
+        padding-left: 24px;
     }
 
     .text-block__container {
@@ -374,7 +377,6 @@ body {
 @media (min-width: 1120px) {
     body {
         margin: 0 auto;
-        width: 1120px;
     }
 
     .header {
@@ -399,12 +401,13 @@ body {
     }
 
     .text-block__text {
-        width: 490px;
+        padding-right: 36px;
+        width: auto;
         height: 160px;
     }
 
     .text-block__contaner {
-        flex: 0 0 50%;
+        flex: 1;
     }
 
     .text-block__image {
@@ -417,6 +420,6 @@ body {
 
         border-radius: 6px;
 
-        flex: 0 0 50%;
+        flex: 1;
     }
 }
