@@ -296,7 +296,7 @@ body {
 }
 
 .text-block__image {
-    background-image: url(./img/cps-img.png);
+    background-image: url(./img/cps-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -414,7 +414,7 @@ body {
         background-size: cover;
 
         width: 50%;
-        height: 330px;
+
         margin-left: 0;
         margin-top: 0;
 
